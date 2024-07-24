@@ -37,6 +37,6 @@ jobs:
 
     - name: Hacer prueba resta
       run: |
-        python -m unittest test/test:resta.py
+        python -m unittest test/test_resta.py
 
 
