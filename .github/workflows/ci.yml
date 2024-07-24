@@ -19,6 +19,6 @@ jobs:
       with:
         python-version: 3.8
     
-    - name: Hacer prueba
+    - name: Hacer prueba operaciones
       run: |
         python -m unittest test_operaciones.py
