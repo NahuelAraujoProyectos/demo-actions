@@ -21,4 +21,4 @@ jobs:
     
     - name: Hacer prueba operaciones
       run: |
-        python -m unittest test_operaciones.py
+        python -m unittest tests/test_operaciones.py
