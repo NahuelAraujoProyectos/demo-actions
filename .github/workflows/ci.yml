@@ -19,6 +19,10 @@ jobs:
       with:
         python-version: 3.8
     
-    - name: Hacer prueba operaciones
+    - name: Hacer prueba suma
       run: |
-        python -m unittest tests/test_operaciones.py
+        python -m unittest tests/test_suma.py
+
+    - name: Hacer prueba resta
+      run: |
+        python -m unittest tests/test_resta.py
